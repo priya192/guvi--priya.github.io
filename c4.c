@@ -7,9 +7,9 @@ int main()
   scanf("%c", &ch);
   
   if( (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') )
-    printf("\n %c is an Alphabet", ch);
+    printf("Alphabet");
   else
-    printf("\n %c is not an Alphabet", ch);
+    printf("No");
   
   return 0;
 }
