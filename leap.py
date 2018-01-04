@@ -3,7 +3,7 @@ def leapyr(n):
         if n%400==0:
             print("leap year")
     elif n%4!=0:
-        print("leap year")
+        print(" not a leap year")
   
 a = input("enter any year")
 print leapyr(a)
