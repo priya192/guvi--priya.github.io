@@ -1,16 +1,15 @@
 #include<stdio.h>
 int main()
 {
-  int n, i;
-  scanf("%d",&n);
+int n, j; scanf("%d",&n);
   int a[n], min;
-  for(i=1;i<=n;i++)
-  scanf("%d",&a[i]);
+  for(j=1;j<=n;j++)
+  scanf("%d",&a[j]);
   min = a[1];
-for(i=1;i<=n;i++)
+for(j=1;j<=n;j++)
 {
-if(min>a[i])
-min = a[i];
+if(min>a[j])
+min = a[j];
 }
 printf("%d",max);
 return 0;
