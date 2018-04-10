@@ -7,7 +7,7 @@ scanf("%[^\n]s",a);
 int i=0, c=0;
 while(a[i] != '\0')
 { 
-    if(a[i]=' ')
+    if(a[i]==' ')
   c = c+1;
     i++;
 }
