@@ -6,7 +6,8 @@ char a[100];
 scanf("%d",&a);
 int i=0, c=0;
 while(a[i] != null)
-{ c++;
+{ if(a[i]!= " ")
+  c++;
 }
 printf("%d",c);
 return 0;
